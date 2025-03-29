@@ -18,6 +18,8 @@ Adam optimizer for efficient training
 
 Visualizes training progress and performance metrics
 
+
+
 Tech Stack
 
 Python
@@ -56,6 +58,8 @@ model = tf.keras.models.Sequential([
     tf.keras.layers.Dense(10, activation='softmax')
 ])
 
+
+
 Training
 
 Compile and train the model:
@@ -63,12 +67,16 @@ Compile and train the model:
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 model.fit(x_train, y_train, epochs=10, validation_data=(x_test, y_test))
 
+
+
 Evaluation
 
 Evaluate the model on the test dataset:
 
 test_loss, test_acc = model.evaluate(x_test, y_test)
 print(f"Test Accuracy: {test_acc:.4f}")
+
+
 
 Sample Predictions
 
@@ -89,14 +97,20 @@ def plot_predictions(model, x_test, y_test):
 
 plot_predictions(model, x_test, y_test)
 
+
+
 How to Run
 
 Clone the repository:
 
+
 git clone https://github.com/your-username/handwritten-digits-classification.git
 cd handwritten-digits-classification
 
+
+
 Install dependencies:
+
 
 pip install tensorflow numpy matplotlib seaborn
 
@@ -108,11 +122,4 @@ View model predictions:
 
 python predict.py
 
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Contact
-
-For any inquiries, please reach out via GitHub or LinkedIn.
 
