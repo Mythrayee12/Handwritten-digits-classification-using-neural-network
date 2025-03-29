@@ -1,6 +1,6 @@
-Handwritten Digits Classification using Neural Network
+## Handwritten Digits Classification using Neural Network
 
-Overview
+# Overview
 
 This project implements a Handwritten Digits Classification system using a Neural Network. The model is trained on the MNIST dataset, which consists of 28x28 grayscale images of handwritten digits (0-9). The neural network is built using TensorFlow/Keras and achieves high accuracy in recognizing digits from handwritten images.
 
@@ -20,7 +20,7 @@ Visualizes training progress and performance metrics
 
 
 
-Tech Stack
+# Tech Stack
 
 Python
 
@@ -41,7 +41,7 @@ You can load the dataset using:
 from tensorflow.keras.datasets import mnist
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
-Model Architecture
+# Model Architecture
 
 The neural network consists of:
 
@@ -60,7 +60,7 @@ model = tf.keras.models.Sequential([
 
 
 
-Training
+# Training
 
 Compile and train the model:
 
@@ -69,7 +69,7 @@ model.fit(x_train, y_train, epochs=10, validation_data=(x_test, y_test))
 
 
 
-Evaluation
+# Evaluation
 
 Evaluate the model on the test dataset:
 
@@ -78,7 +78,7 @@ print(f"Test Accuracy: {test_acc:.4f}")
 
 
 
-Sample Predictions
+# Sample Predictions
 
 Plot sample test images with model predictions:
 
@@ -99,7 +99,7 @@ plot_predictions(model, x_test, y_test)
 
 
 
-How to Run
+# How to Run
 
 Clone the repository:
 
@@ -109,7 +109,7 @@ cd handwritten-digits-classification
 
 
 
-Install dependencies:
+ Install dependencies:
 
 
 pip install tensorflow numpy matplotlib seaborn
