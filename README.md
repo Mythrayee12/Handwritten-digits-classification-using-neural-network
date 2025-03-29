@@ -1,4 +1,4 @@
-## Handwritten Digits Classification using Neural Network
+### Handwritten Digits Classification using Neural Network
 
 # Overview
 
@@ -6,7 +6,7 @@ This project implements a Handwritten Digits Classification system using a Neura
 
 ![image](https://github.com/user-attachments/assets/a9b86d8c-91a5-4b73-9191-ba365b0d2297)
 
-Features
+# Features
 
 Multi-layer neural network for digit classification
 
